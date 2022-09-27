@@ -14,6 +14,13 @@
   gap: 1px;
 }
 
+@media (max-width: 420px) {
+  .calc {
+    width: 320px;
+    grid-auto-rows: 100px 65px 65px 65px 65px 65px;
+  }
+}
+
 body {
   margin: 0;
   min-height: 100vh;
